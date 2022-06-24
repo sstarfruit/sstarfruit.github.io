@@ -1,0 +1,84 @@
+body{
+    background-color: #c6e2ff;
+
+}
+nav {
+    margin: 0px;
+    background-color: #4f94cd;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px; 
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+nav ul li a:link {
+	color: #87ceeb;
+	font-weight: bold;
+}
+
+/* 鼠标停留在超链接时的颜色 */
+nav ul li a:hover {
+	color: #c6e2ff;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #43788c;
+}
+
+h1,h2{
+	font-family:cursive;
+	font-size: 28px;
+	margin-left: 100px;
+}
+h2{
+	float: right;
+	margin-right: 50px;
+}
+
+/* 表单样式 */
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #448bfc;
+	float:left;
+	margin-top: 120px;
+}
+
+form textarea {
+	width: 400px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+div img{
+	width: 650px;
+	height: 400px;
+	margin-top: 40px;
+	float: right;
+}
+
+
+footer {
+	color: black;
+	text-align:  center;
+	margin-top: 580px;
+	font-size:    80%;
+  }
+  

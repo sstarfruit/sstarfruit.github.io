@@ -1,0 +1,95 @@
+body{
+    background-color: #c6e2ff;
+
+}
+/* 导航区与首页大体相同 */
+nav {
+    margin: 0px;
+    background-color: #4f94cd;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px; 
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+nav ul li a:link {
+	color: #87ceeb;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	color: #c6e2ff;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #43788c;
+}
+
+div#container_1{
+	margin-top: 20px;
+}
+
+div#container_1 div#cont_1_1{
+    background-color: #87cded;
+    width:45%;
+    height:fit-content;      /*高度适应内容 */
+	margin-left: 10px;
+	float: left;     /* 流元素，内联元素围绕着浮动元素(float) */
+}
+
+div#container_1 div#cont_1_2{
+    background-color: #5bb2d4;
+	width:45%;
+    height:fit-content;
+	margin-right: 50px;
+	float :right;
+}
+
+div#container_2{
+	margin-top: 285px;
+}
+
+div#container_2 div#cont_2_1{
+	width:45%;
+    height:fit-content;
+    background-color: #7fbeeb;
+	margin-left: 50px;
+	float: left;
+}
+
+div#container_2 div#cont_2_2{
+    width:45%;
+    height:fit-content;
+    background-color: #5ea4de;
+	margin-right: 10px;
+	float :right;
+}
+
+img{
+	 width: 260px;
+	 height: 210px;
+	 margin: 20px;
+	 float: left;
+}
+
+p{
+	margin-top: 50px;
+	margin-left: 280px;
+	line-height: 2.0em;
+	font-weight: bold;
+}
+
+footer {
+	color: black;
+	text-align:  center;
+	margin-top: 540px;
+	font-size:    80%;
+  }
+  
