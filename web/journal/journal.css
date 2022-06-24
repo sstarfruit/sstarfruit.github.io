@@ -1,0 +1,75 @@
+body{
+    background-color: #c6e2ff;
+
+}
+nav {
+    margin: 0px;
+    background-color: #4f94cd;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px; 
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+nav ul li a:link {
+	color: #87ceeb;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	color: #c6e2ff;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #43788c;
+}
+
+
+/* grid网格布局  */
+.box {
+	width: 900px;
+	display: grid;
+	align-items:center;
+	grid-template-columns: 300px 500px;
+	grid-template-rows: 200px 200px 200px;
+	/* 网格内行列间的间距，比用margin要方便许多 */
+	grid-row-gap: 20px;
+	grid-column-gap: 70px;
+  }
+  .box>div{
+	margin-top: 20px;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 18px;
+  }
+  .box>div img{
+	width: 300px;
+	height: 200px;
+	margin: 20px; 
+  } 
+/* 边栏区样式 */
+  aside{
+	margin-top: 50px;
+	float:right;
+	width:200px;
+  }
+  aside img{
+	width: 200px;
+	height: 500px;
+  }
+
+footer {
+	color: black;
+	text-align:  center;
+	margin-top: 80px;
+	font-size:    80%;
+  }
+  

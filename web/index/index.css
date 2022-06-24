@@ -1,0 +1,51 @@
+body{
+    background-image: url(images/v2-a58f0879cb57fda13af8cd5caa3560db_r.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;/*将图片自适应页面 */
+}
+
+nav {
+	margin: 10px 10px; 
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px; 
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+nav ul li a:link {
+	color: #87ceeb;
+	font-weight: bold;
+}
+
+/* 鼠标停留在超链接时的颜色 */
+nav ul li a:hover {
+	color: #c6e2ff;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+	font-weight: bold;
+}
+/*当前选择页面的导航标签的颜色为深色 */
+nav ul li.selected {
+	background-color: #43788c;
+}
+
+h1{
+    font-size: 300%;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20%;
+}
+
+footer {
+	color: black;
+	text-align:  center;
+	margin-top: 210px;
+	font-size:    80%;
+  }
+  

@@ -1,0 +1,95 @@
+body{
+    background-color: #c6e2ff;
+
+}
+
+/* 页眉区 */
+header{
+	color: #1684df;
+	margin: 10px;
+}
+
+/* 导航区 */
+nav {
+    margin: 0px;
+    background-color: #4f94cd;
+}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px; 
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px;
+}
+nav ul li a:link {
+	color: #87ceeb;
+	font-weight: bold;
+}
+
+/* 鼠标停留在超链接时的颜色 */
+nav ul li a:hover {
+	color: #c6e2ff;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: black;
+	font-weight: bold;
+}
+
+nav ul li.selected {
+	background-color: #43788c;
+}
+
+/* 表格样式 */
+table {
+	margin-left:      80px;
+	margin-top:     50px;
+	border:           thin solid black;
+	/* 内部边距为0 */
+	border-collapse:  collapse; 
+	font-size: 20px;
+	float: left;
+  }
+  
+  td, th {
+	border: thin dotted gray;
+	padding: 20px;
+  }
+  
+  th {
+	background-color: #4a7ae9;
+  }
+  
+  .cellcolor {
+	background-color: #7aaefc;
+  }
+
+  div img{
+	width :280px;
+	height: 350px;
+	float: right;
+	margin-top: 45px;
+	margin-right: 150px;
+	border: white solid 1px;
+  }
+div p{
+	width :350px;
+	height: 100px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+/* 页脚区 */
+footer {
+	color: black;
+	text-align:  center;
+	margin-top: 530px;
+	font-size:    80%;
+  }
+  
